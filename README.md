@@ -4,7 +4,7 @@
 
 ## Overview
 
-On Day 7, I moved from predicting continuous numbers with regression to predicting categories with classification. Using house-price data, I converted the original price-prediction problem into a multi-class classification problem: predicting whether a house belongs to the **Cheap**, **Mid**, or **Expensive** price tier.
+Today, I moved from predicting continuous numbers with regression to predicting categories with classification. Using house-price data, I converted the original price-prediction problem into a multi-class classification problem: predicting whether a house belongs to the **Cheap**, **Mid**, or **Expensive** price tier.
 
 This project covers the complete classification workflow-from preparing the data and training models to evaluating their performance with metrics that are more informative than accuracy alone.
 
