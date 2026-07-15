@@ -1,12 +1,12 @@
-# Day 7 — Classification Models
+# Classification Models
 
-![Day 7 — Classification Models](./Day-7.png)
+![Day 7 - Classification Models](./Day-7.png)
 
 ## Overview
 
 On Day 7, I moved from predicting continuous numbers with regression to predicting categories with classification. Using house-price data, I converted the original price-prediction problem into a multi-class classification problem: predicting whether a house belongs to the **Cheap**, **Mid**, or **Expensive** price tier.
 
-This project covers the complete classification workflow—from preparing the data and training models to evaluating their performance with metrics that are more informative than accuracy alone.
+This project covers the complete classification workflow-from preparing the data and training models to evaluating their performance with metrics that are more informative than accuracy alone.
 
 ## What I Learned
 
@@ -37,7 +37,7 @@ Despite its name, Logistic Regression is a classification algorithm. It transfor
 p = 1 / (1 + e^(-z))
 ```
 
-For binary classification, the probability is compared with a decision threshold—commonly `0.5`—to select a class. Changing this threshold changes the balance between false positives and false negatives.
+For binary classification, the probability is compared with a decision threshold-commonly `0.5`-to select a class. Changing this threshold changes the balance between false positives and false negatives.
 
 Logistic Regression is useful when:
 
@@ -136,6 +136,11 @@ This comparison showed that selecting a model is not only about finding the high
 4. When should recall be prioritized over precision?
 5. Why can accuracy be misleading on an imbalanced dataset?
 
+
+<details>
+<summary><strong>Answer key</strong></summary>
+
+
 ### Answers
 
 1. **Regression predicts a continuous number, while classification predicts a category or class label.** For example, predicting an exact house price is regression, while predicting its price tier is classification.
@@ -147,6 +152,8 @@ This comparison showed that selecting a model is not only about finding the high
 4. **Recall should be prioritized when missing a true positive is especially costly.** Examples include disease detection, fraud detection, and safety alerts, where a false negative may have serious consequences.
 
 5. **Accuracy can hide poor minority-class performance.** If 95% of examples belong to one class, a model can reach 95% accuracy by always predicting that class while failing on every minority-class example. The confusion matrix, recall, and F1 score provide a more complete view.
+
+</details>
 
 ## Tools and Libraries
 
