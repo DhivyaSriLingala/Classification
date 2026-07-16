@@ -141,8 +141,6 @@ This comparison showed that selecting a model is not only about finding the high
 <summary><strong>Answer key</strong></summary>
 
 
-### Answers
-
 1. **Regression predicts a continuous number, while classification predicts a category or class label.** For example, predicting an exact house price is regression, while predicting its price tier is classification.
 
 2. **`stratify=y` preserves approximately the same class proportions in the training and testing sets.** This makes both sets more representative of the full dataset and produces a fairer evaluation.
